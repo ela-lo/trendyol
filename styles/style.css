@@ -17,3 +17,20 @@
 .join {
   text-decoration: none;
 }
+/* navigation menu */
+.main-nav {
+  background-color: rgb(233, 223, 223);
+  height: 50px;
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 300px;
+}
+.main-list {
+  font-family: "Roboto Condensed";
+  display: flex;
+  gap: 20px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
