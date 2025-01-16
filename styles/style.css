@@ -1,7 +1,19 @@
-.head {
+/* first line styles */
+.head-trendyol {
   font-family: "Roboto Condensed";
+  font-size: 25px;
+  display: flex;
+  padding: 20px;
 }
-.statia {
-  size: 500px;
-  color: chartreuse;
+.header-left {
+  font-family: "Roboto Condensed";
+  font-size: 20px;
+  display: flex;
+  justify-content: right;
+  align-items: self-end;
+  margin-right: 100px;
+  gap: 20px;
+}
+.join {
+  text-decoration: none;
 }
