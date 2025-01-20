@@ -25,6 +25,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
   margin-left: 300px;
 }
 .main-list {
@@ -53,13 +54,79 @@
   margin-bottom: 30px;
 }
 .purple {
-  height: 2000px;
   width: 100%;
   background-color: #8f0133;
 }
-.personal {
+.purple {
   font-family: "Roboto Condensed";
   font-size: 38px;
   font-weight: 500px;
   color: #222222;
+}
+
+.purple-personal {
+  font-family: "Roboto Condensed";
+  font-size: 22px;
+  font-weight: 500px;
+  color: #222222;
+}
+/* table */
+.country-table {
+  background-color: aliceblue;
+  border: 3px solid grey;
+  border-collapse: collapse;
+  font-size: 20px;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  margin-left: 500px;
+  margin-right: 5px;
+  height: 139px;
+  width: 905px;
+  top: 800px;
+  left: 270px;
+}
+.table-tr {
+  border: 3px solid grey;
+  border-collapse: collapse;
+  padding: 20px;
+}
+.table-td {
+  border: 3px solid grey;
+  border-collapse: collapse;
+  padding: 20px;
+}
+.germany {
+  height: 20px;
+  width: 20px;
+  display: inline;
+  align-items: center;
+  margin-right: 5px;
+}
+.france {
+  height: 20px;
+  height: 20px;
+  display: inline;
+  align-items: center;
+}
+
+/* ვერ ვცვლი ვიედოს მდებარეობას */
+.trendyol video {
+  width: 1000px;
+  height: 1000px;
+}
+.second_bg {
+  height: 500px;
+  width: 100%;
+  background-color: rgb(221, 241, 241);
+  background-image: url("../images/girl.PNG");
+  background-size: cover;
+  margin-bottom: 30px;
+}
+.end_text {
+  font-family: "Roboto Condensed";
+  width: 800;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
 }
